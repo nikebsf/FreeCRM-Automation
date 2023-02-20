@@ -1,0 +1,4 @@
+2023-02-07 16:10:07,925  INFO [main] LoginPageTest:45 - *************************************** loginPageTitleTest ***************************************
+2023-02-07 16:10:07,952  WARN [main] LoginPageTest:49 - warning message!!!!!!!
+2023-02-07 16:10:07,953 DEBUG [main] LoginPageTest:50 - debug message
+2023-02-07 16:10:07,956 FATAL [main] LoginPageTest:51 - fatal msg

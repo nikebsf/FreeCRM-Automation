@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Free CRM Test Automation">
+
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    </listeners>
+
+
+  <test name="FreeCRMTest cases">
+  <!-- <groups>  
+	<run>  
+		<include name="SmokeTest"/>  
+	</run>  
+	</groups> -->
+	<!-- i used this method to use groups from online   -->
+   <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+      <class name="com.crm.qa.testcases.NewContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
